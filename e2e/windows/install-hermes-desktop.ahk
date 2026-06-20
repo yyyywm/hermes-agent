@@ -82,6 +82,7 @@ ToolTip(Format("Installer window appeared at x={1} y={2} w={3} h={4}. Sleeping f
 
 ClickCenterOfImageInWindow(winTitle, "install-button.png")
 
+Sleep(10000)
 ClickCenterOfImageInWindow(winTitle, "install-button.png", 60 * 60 * 20)
 
 
